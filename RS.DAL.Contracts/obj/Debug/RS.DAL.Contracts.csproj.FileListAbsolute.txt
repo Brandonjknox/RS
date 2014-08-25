@@ -1,0 +1,8 @@
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL.Contracts\bin\Debug\RS.DAL.Contracts.dll.config
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL.Contracts\bin\Debug\RS.DAL.Contracts.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL.Contracts\bin\Debug\RS.DAL.Contracts.pdb
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL.Contracts\bin\Debug\EntityFramework.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL.Contracts\bin\Debug\EntityFramework.xml
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL.Contracts\obj\Debug\RS.DAL.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL.Contracts\obj\Debug\RS.DAL.Contracts.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL.Contracts\obj\Debug\RS.DAL.Contracts.pdb

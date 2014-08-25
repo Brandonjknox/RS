@@ -1,0 +1,7 @@
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\Rs.Business\bin\Debug\Rs.Business.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\Rs.Business\bin\Debug\Rs.Business.pdb
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\Rs.Business\bin\Debug\RS.Business.Contracts.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\Rs.Business\bin\Debug\RS.Business.Contracts.pdb
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\Rs.Business\obj\Debug\RS.Business.csprojResolveAssemblyReference.cache
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\Rs.Business\obj\Debug\Rs.Business.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\Rs.Business\obj\Debug\Rs.Business.pdb

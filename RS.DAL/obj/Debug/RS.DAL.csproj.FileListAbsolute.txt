@@ -1,0 +1,4 @@
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL\bin\Debug\RS.DAL.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL\bin\Debug\RS.DAL.pdb
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL\obj\Debug\RS.DAL.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.DAL\obj\Debug\RS.DAL.pdb

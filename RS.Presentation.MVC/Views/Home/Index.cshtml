@@ -1,0 +1,31 @@
+﻿<div id="body">
+    <section id="filterGenre" class="content-wrapper">
+        <label for="Genre">Filter by genre:</label>
+        <select name="Genre" data-bind="value: selectedGenre, foreach: genreLists">
+            <option data-bind="value: Id, text: Name"></option>
+        </select>
+    </section>
+    <section class="content-wrapper" data-bind="foreach: viewingList">
+        <div class="MimeImage">
+            <a class="image" data-bind="attr:{ href: '@Url.Action("Details", "Home")?id='+Id}" href="#">
+                <img alt="fancy" data-bind="attr:{src:ImageUrl}" src="http://www.superlativity.co.uk/wp-content/uploads/2011/03/Fancy3.jpeg" /></a><div data-bind="    text:Title"></div>
+            <div><em data-bind="text:Genre.Name"></em></div>
+            <div><a href="#" data-bind="click:$parent.Remove" >Delete</a></div>
+        </div>
+    </section>
+</div>
+@section scripts{
+    <script src="~/Scripts/ImageListViewModel.js"></script>
+    <script type="text/javascript">
+        var lstVM = new ImageListViewModel();
+        $.getJSON('@Url.Content("~/api/GenreValues")', {}, function (data) {
+            lstVM.loadGenres(data);
+        });
+        $.getJSON('@Url.Content("~/api/ImageValues")', {}, function (data) {
+            lstVM.loadImages(data);
+        });
+        $(function() {
+            ko.applyBindings(lstVM, $("#body").get(0));
+        });
+    </script>
+}

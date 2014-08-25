@@ -1,0 +1,4 @@
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.Business.Contracts\bin\Debug\RS.Business.Contracts.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.Business.Contracts\bin\Debug\RS.Business.Contracts.pdb
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.Business.Contracts\obj\Debug\RS.Business.Contracts.dll
+C:\Users\Genesis\Documents\Visual Studio 2012\Projects\RS\RS.Business.Contracts\obj\Debug\RS.Business.Contracts.pdb

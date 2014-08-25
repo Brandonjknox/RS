@@ -1,0 +1,34 @@
+﻿@model Rs.Business.Image
+
+@{
+    ViewBag.Title = "Details";
+}
+<div id="body">
+    <section class="content-wrapper">
+        <img src="@Model.ImageUrl" alt="@Model.Title" />
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Title):
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Title)
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Genre):
+        </div>
+        <div class="display-field">
+            <em>
+                @Html.DisplayFor(model => model.Genre.Name)
+            </em>
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Description):
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Description)
+        </div>
+        <br />
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </section>
+</div>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header>
+        <div class="content-wrapper clear-fix">
+            <div id="sitelogo">
+                <a href="~/">
+                    <img alt="Ron Swanson Memes, and Animated Gifs" src="~/Images/RonSwanson.jpg" /></a>
+            </div>
+            
+                   <p class="site-title">
+                        <a href="~/">Ron Swanson Memes, and Animated Gifs</a>
+                    </p>
+            <nav>
+                <ul id="menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Add Image", "Create", "Home", new { area = "" }, null)</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/knockout")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
